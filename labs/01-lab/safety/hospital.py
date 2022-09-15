@@ -1,3 +1,7 @@
 def draw_hospital():
-    print("hospital not found")
+    for i in range(0,6):
+        if i ==3:
+            print('hospital')
+        else:
+            print('*' * i)
     return

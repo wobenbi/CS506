@@ -1,3 +1,7 @@
 def draw_policestation():
-    print("police station not found")
+    for i in range(0,6):
+        if i ==3:
+            print('policestation')
+        else:
+            print('*' * (5-i))
     return
